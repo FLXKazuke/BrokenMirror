@@ -1,0 +1,1 @@
+C:\src\Windows-driver-samples-main\filesys\miniFilter\passThrough\x64\Release\passThrough.sys

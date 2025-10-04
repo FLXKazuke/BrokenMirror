@@ -1,0 +1,19 @@
+﻿  Building 'passThrough' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\passThrough.inf
+  Stamping [Version] section with DriverVer=10/04/2025,17.34.13.357
+  passThrough.vcxproj -> C:\src\Windows-driver-samples-main\filesys\miniFilter\passThrough\x64\Release\passThrough.sys
+  Driver is 'Universal'.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\src\Windows-driver-samples-main\filesys\miniFilter\passThrough\x64\Release\passThrough\passthrough.cat
+  Done Adding Additional Store
+  Successfully signed: x64\Release\passThrough\passthrough.cat
+  
