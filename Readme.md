@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="Documentos/img/BrokenMirror.jpeg" width="800" alt="Logo e Arquitetura do Projeto BrokenMirror">
+  <img src="Documentos/img/BrokenMirror.jpeg" width="200" alt="Logo e Arquitetura do Projeto BrokenMirror">
 </p>
+
 # 🧠 BrokenMirror — FIAP | Pride Security
 
 Repositório dedicado à entrega da **Solução Anti-Ransomware (Sprint 4 — Final)**  
