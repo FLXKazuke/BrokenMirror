@@ -1,0 +1,46 @@
+﻿2025-10-01T22:02:18 [INFO] Criado sysmon.xml padrÃ£o em C:\AntiRansom\tools\sysmon\sysmon.xml
+2025-10-01T22:02:18 [INFO] Sysmon nÃ£o encontrado em C:\AntiRansom\tools\sysmon\Sysmon64.exe. (Opcional mas recomendado)
+2025-10-01T22:02:18 [INFO] Prep concluÃ­do.
+2025-10-01T22:07:54 [INFO] [RESPONSE] Rede restaurada
+2025-10-01T22:07:54 [INFO] Guardian STOPPED.
+2025-10-01T22:07:55 [INFO] [ERROR] Register-WinEvent Sysmon: O termo 'Register-WinEvent' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o caminho está correto e tente novamente.
+2025-10-01T22:07:55 [INFO] [DET] FileSystemWatcher ligado em: C:\Users\jshol\Documents; C:\Users\jshol\Desktop; C:\Users\jshol\Pictures; C:\HoneyNet; C:\Users\Public\Documents\HONEY
+2025-10-01T22:07:55 [INFO] Guardian STARTED (Sysmon + FSW).
+2025-10-01T22:14:08 [INFO] [ERROR] Register-WinEvent Sysmon: O termo 'Register-WinEvent' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o caminho está correto e tente novamente.
+2025-10-01T22:14:08 [INFO] [DET] FileSystemWatcher ligado em: C:\Users\jshol\Documents; C:\Users\jshol\Desktop; C:\Users\jshol\Pictures; C:\HoneyNet; C:\Users\Public\Documents\HONEY
+2025-10-01T22:14:08 [INFO] Guardian STARTED (Sysmon + FSW).
+2025-10-01T22:14:42 [ERROR] Falha ao instalar Sysmon.
+2025-10-01T22:14:42 [INFO] Prep concluÃ­do.
+2025-10-01T22:25:50 [INFO] Deploy de honeypots INICIADO. Pastas alvo: C:\Users\jshol\Documents; C:\Users\jshol\Desktop; C:\Users\jshol\Downloads; C:\Users\jshol\Pictures; C:\Users\jshol\Videos; C:\Users\jshol\Music; C:\HoneyNet; C:\Users\Public\Documents\HONEY
+2025-10-01T22:25:50 [INFO] Minifilter 'passThrough' estÃ¡ carregado. Descarregando temporariamente para criar honeypotsâ€¦
+2025-10-01T22:25:53 [INFO] Honeypots criados em 'C:\Users\jshol\Documents' : 397 arquivos
+2025-10-01T22:25:55 [INFO] Honeypots criados em 'C:\Users\jshol\Desktop' : 394 arquivos
+2025-10-01T22:25:57 [INFO] Honeypots criados em 'C:\Users\jshol\Downloads' : 399 arquivos
+2025-10-01T22:26:00 [INFO] Honeypots criados em 'C:\Users\jshol\Pictures' : 395 arquivos
+2025-10-01T22:26:02 [INFO] Honeypots criados em 'C:\Users\jshol\Videos' : 398 arquivos
+2025-10-01T22:26:05 [INFO] Honeypots criados em 'C:\Users\jshol\Music' : 395 arquivos
+2025-10-01T22:26:08 [INFO] Honeypots criados em 'C:\HoneyNet' : 394 arquivos
+2025-10-01T22:26:11 [INFO] Honeypots criados em 'C:\Users\Public\Documents\HONEY' : 392 arquivos
+2025-10-01T22:26:11 [INFO] Recarregando minifilter 'passThrough'â€¦
+2025-10-01T22:26:11 [INFO] Deploy de honeypots CONCLUÃDO. Total de arquivos: 3164
+2025-10-01T23:03:32 [INFO] Auditoria de File System habilitada (Security 4656/4663).
+2025-10-01T23:03:32 [INFO] SACL (falhas) aplicada em: C:\Users\jshol\Documents
+2025-10-01T23:03:32 [INFO] SACL (falhas) aplicada em: C:\Users\jshol\Desktop
+2025-10-01T23:03:32 [INFO] SACL (falhas) aplicada em: C:\Users\jshol\Pictures
+2025-10-01T23:03:33 [INFO] SACL (falhas) aplicada em: C:\HoneyNet
+2025-10-01T23:03:33 [INFO] Guardian STOPPED.
+2025-10-01T23:03:41 [INFO] Auditoria de File System habilitada (Security 4656/4663).
+2025-10-01T23:03:41 [INFO] SACL (falhas) aplicada em: C:\Users\jshol\Documents
+2025-10-01T23:03:41 [INFO] SACL (falhas) aplicada em: C:\Users\jshol\Desktop
+2025-10-01T23:03:41 [INFO] SACL (falhas) aplicada em: C:\HoneyNet
+2025-10-01T23:03:41 [INFO] SACL (falhas) aplicada em: C:\Users\Public\Documents\HONEY
+2025-10-01T23:03:41 [INFO] Guardian STOPPED.
+2025-10-01T23:09:42 [INFO] Stop signal enviado ao Guardian.
+2025-10-01T23:09:44 [INFO] Auditoria de File System habilitada (Security 4656/4663).
+2025-10-01T23:09:44 [INFO] SACL (falhas) aplicada em: C:\Users\jshol\Documents
+2025-10-01T23:09:44 [INFO] SACL (falhas) aplicada em: C:\Users\jshol\Desktop
+2025-10-01T23:09:44 [INFO] SACL (falhas) aplicada em: C:\Users\jshol\Pictures
+2025-10-01T23:09:44 [INFO] SACL (falhas) aplicada em: C:\HoneyNet
+2025-10-01T23:09:44 [INFO] SACL (falhas) aplicada em: C:\Users\Public\Documents\HONEY
+2025-10-01T23:09:44 [INFO] SACL (falhas) aplicada em: C:\ProgramData\AR_SAFE
+2025-10-01T23:09:44 [INFO] Guardian STOPPED.

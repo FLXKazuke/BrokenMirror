@@ -1,0 +1,19 @@
+﻿<Sysmon schemaversion="4.82">
+  <HashAlgorithms>sha256</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="include">
+      <Rule groupRelation="or">
+        <Image condition="is not">C:\Windows\System32\svchost.exe</Image>
+      </Rule>
+    </ProcessCreate>
+    <FileCreate onmatch="include">
+      <Rule groupRelation="or">
+        <TargetFilename condition="contains">C:\Users\</TargetFilename>
+        <TargetFilename condition="contains">C:\HoneyNet\</TargetFilename>
+        <TargetFilename condition="contains">\Documents\</TargetFilename>
+        <TargetFilename condition="contains">\Desktop\</TargetFilename>
+        <TargetFilename condition="contains">\Pictures\</TargetFilename>
+      </Rule>
+    </FileCreate>
+  </EventFiltering>
+</Sysmon>
