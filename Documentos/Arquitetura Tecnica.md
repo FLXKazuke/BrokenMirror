@@ -1,4 +1,4 @@
-# ARQUITETURA_TECNICA.md — BrokenMirror
+# ARQUITETURA TECNICA.md — BrokenMirror
 
 > Documento de arquitetura técnica do projeto **BrokenMirror** (Sprint 4).  
 > Foco: como os módulos se comunicam, principais fluxos, dependências e pontos de operação/observabilidade.
