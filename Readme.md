@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="AntiRansom\BrokenMirror\Documentos\img\BrokenMirror.jpeg" width="800" alt="Logo e Arquitetura do Projeto BrokenMirror">
-</p>
+
 # 🧠 BrokenMirror — FIAP | Pride Security
 
 Repositório dedicado à entrega da **Solução Anti-Ransomware (Sprint 4 — Final)**  
@@ -30,3 +28,8 @@ Sua missão é **impedir a criptografia de arquivos** e **interromper processos 
 | **Honeypots & Auditoria** | Gera arquivos isca e ativa SACL para auditoria de acessos negados. | Python / PowerShell |
 | **GUI (Tkinter)** | Exibe logs, quarentenas e status em tempo real. | Python / PowerShell |
 | **Sysmon** | Coleta eventos avançados de sistema. | Sysinternals |
+
+
+<p align="center">
+  <img src="Documentos/img/BrokenMirror.jpeg" width="200" alt="Logo e Arquitetura do Projeto BrokenMirror">
+</p>

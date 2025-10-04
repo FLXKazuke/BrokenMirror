@@ -1,4 +1,4 @@
-# CREDITS.md — Equipe BrokenMirror
+# CREDITOS.md — Equipe BrokenMirror
 
 > Projeto desenvolvido para a disciplina **Cyber Security — FIAP (1TDCR)**  
 > Entrega Sprint 4 — Solução Anti-Ransomware "BrokenMirror"  
