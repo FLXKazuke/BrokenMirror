@@ -200,6 +200,7 @@ Em paralelo, o **MiniFilter** (kernel) intercepta I/O de arquivos e pode negar o
 - TestSigning/driver de LAB pode não carregar com **Secure Boot** ativo.  
 - ATAQUES sob **contexto SYSTEM** podem contornar user‑mode (mitigar com MiniFilter e políticas).  
 - Quarentena depende de liberação de handle; alguns *kill* podem falhar exigindo **Suspend → Kill** com retry.
+- A solução não se protege de ameaçãs que caçam anti virus.
 
 ---
 
@@ -213,15 +214,7 @@ Em paralelo, o **MiniFilter** (kernel) intercepta I/O de arquivos e pode negar o
 
 ---
 
-## 12. Anexos (exemplos úteis)
-
-### 12.1 Tarefa agendada (SYSTEM) — Blocker
-```powershell
-$pyBlock = if (Test-Path "C:\AntiRansom\python\python.exe") { "`"C:\AntiRansom\python\python.exe`" `"`"C:\AntiRansom\scripts\hp_blocker.py`"`" --kill" } else { "py -3 `"`"C:\AntiRansom\scripts\hp_blocker.py`"`" --kill" }
-schtasks /Create /TN "\AntiRansom\Blocker" /SC ONSTART /RL HIGHEST /RU SYSTEM /TR $pyBlock /F
-```
-
-### 12.2 Estrutura de pastas
+## 12. Estrutura de pastas
 ```
 C:\AntiRansom\
   driver\                  # passThrough.sys/.inf/.cat
@@ -233,4 +226,3 @@ C:\AntiRansom\
 
 ---
 
-**FIM — ARQUITETURA_TECNICA.md**
