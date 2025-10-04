@@ -207,10 +207,11 @@ schtasks /Create /TN "\AntiRansom\Blocker" /SC ONSTART /RL HIGHEST /RU SYSTEM /T
 
 (Repita para Detect-Security e Detect-Kernel se quiser persistir ambos como SYSTEM.)
 
-### 5.9 Abrir a GUI
+### 5.9 Abrir as GUI
 
 ```powershell
 & $py "C:\AntiRansom\scripts\arq_gui.py"
+& $py "C:\AntiRansom\ui\app.py"
 ```
 
 ---
