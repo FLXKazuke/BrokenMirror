@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="\BrokenMirror\AntiRansom\Documentos\img\BrokenMirror.jpeg" width="800" alt="Logo e Arquitetura do Projeto BrokenMirror">
+  <img src="Documentos/img/BrokenMirror.jpeg" width="800" alt="Logo e Arquitetura do Projeto BrokenMirror">
 </p>
 # 🧠 BrokenMirror — FIAP | Pride Security
 
